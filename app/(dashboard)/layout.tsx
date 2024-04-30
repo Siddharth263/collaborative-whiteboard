@@ -1,4 +1,4 @@
-
+import { auth } from "@clerk/nextjs/server";
 import { Navbar } from "./_components/navbar";
 import { OrgSidebar } from "./_components/org-sidebar";
 import { Sidebar } from "./_components/sidebar";
@@ -8,6 +8,7 @@ interface DashboardLayoutProps {
 }
 
 const DashboardLayout = ({ children }: DashboardLayoutProps) => {
+  auth().protect();
   return (
     <main className="h-full">
       <Sidebar />

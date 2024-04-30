@@ -20,8 +20,6 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  auth().protect();
-
   return (
     <ClerkProvider>
       <html lang="en">
