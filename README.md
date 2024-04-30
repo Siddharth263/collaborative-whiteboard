@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Collaborative Whiteboard - Miro Clone
 
-## Getting Started
+This project is a clone of Miro, a collaborative online whiteboard platform, built using Next.js, TypeScript, Liveblock, Convex, and Clerk.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Whiteboard Functionality**: Users can create and collaborate on virtual whiteboards.
+- **Real-time Collaboration**: Utilizes Liveblock for real-time collaboration, allowing multiple users to interact simultaneously.
+- **Authentication**: Integrated Clerk for user authentication, ensuring secure access to the application.
+- **Persistence**: Data is stored and managed using Convex, providing a reliable storage solution for board content.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: A React framework for building server-side rendered and statically generated web applications.
+- **TypeScript**: A statically typed superset of JavaScript that enhances code quality and developer productivity.
+- **Liveblock**: A real-time collaboration platform for adding live collaboration features to applications.
+- **Convex**: A data persistence and synchronization service for building collaborative applications.
+- **Clerk**: A user authentication and identity management service for modern web applications.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+1. Clone the repository: `git clone https://github.com/Siddharth263/collaborative-whiteboard.git`
+2. Navigate to the project directory: `cd collaborative-whiteboard`
+3. Install dependencies: `npm install`
+4. Set up environment variables:
+   Create a `.env.local` file in the root directory and add the following variables:
+   ```
+   CONVEX_DEPLOYMENT=your convex development link
+   NEXT_PUBLIC_CONVEX_URL=your convex URL
+   CLERK_SECRET_KEY=your-clerk-secret-key
+   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your clerk pk
+   ```
+6. Run the development server: `npm run dev`
 
-To learn more about Next.js, take a look at the following resources:
+7. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md).
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the [MIT License](LICENSE).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Acknowledgements
+
+- This project was inspired by Miro
+- Built with ❤️ by [Priyanshu](https://github.com/Siddharth263).
