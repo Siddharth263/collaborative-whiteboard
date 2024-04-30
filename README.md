@@ -36,7 +36,7 @@ This project is a clone of Miro, a collaborative online whiteboard platform, bui
 
 ## Contributing
 
-Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md).
+Contributions are welcome! If you have any features or found a bug and want to fix it, please fork the repository, and put in a pull request for review. Thank you!
 
 ## License
 
