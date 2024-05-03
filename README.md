@@ -34,6 +34,20 @@ This project is a clone of Miro, a collaborative online whiteboard platform, bui
 
 7. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
+## Screenshots
+
+![Landing_Page](/screenshots/landing-page.png)
+![After_Login](/screenshots/after-login.png)
+![Creating_Organisation](/screenshots/creating-organisation.png)
+![Account](/screenshots/account.png)
+![Creating_Boards](/screenshots/creating-boards.png)
+![Inside_Organisation](/screenshots/inside-org.png)
+![Inviting_Members](/screenshots/inviting-member-with-roles.png)
+![Receiving_Invites](/screenshots/receiving-invites-and-accepting.png)
+![Orgaisation_Setting](/screenshots/org-setting.png)
+![Renaming_Board_Real_Time](/screenshots/renaming-board-realtim.png)
+![Responsive_Screens](/screenshots/responsive-screens.png)
+
 ## Contributing
 
 Contributions are welcome! If you have any features or found a bug and want to fix it, please fork the repository, and put in a pull request for review. Thank you!
