@@ -1,6 +1,7 @@
 # Collaborative Whiteboard - Miro Clone
 
 This project is a clone of Miro, a collaborative online whiteboard platform, built using Next.js, TypeScript, Liveblock, Convex, and Clerk.
+Video of Real-time users using the canvas: https://drive.google.com/file/d/1PV5YY5vf0w7jFi3vC1SCS-Pg7WwW60Dg/view?usp=drive_link
 
 ## Features
 
@@ -37,15 +38,25 @@ This project is a clone of Miro, a collaborative online whiteboard platform, bui
 ## Screenshots
 
 ![Landing_Page](/screenshots/landing-page.png)
+
 ![After_Login](/screenshots/after-login.png)
+
 ![Creating_Organisation](/screenshots/creating-organisation.png)
+
 ![Account](/screenshots/account.png)
+
 ![Creating_Boards](/screenshots/creating-boards.png)
+
 ![Inside_Organisation](/screenshots/inside-org.png)
+
 ![Inviting_Members](/screenshots/inviting-member-with-roles.png)
+
 ![Receiving_Invites](/screenshots/receiving-invites-and-accepting.png)
+
 ![Orgaisation_Setting](/screenshots/org-setting.png)
+
 ![Renaming_Board_Real_Time](/screenshots/renaming-board-realtim.png)
+
 ![Responsive_Screens](/screenshots/responsive-screens.png)
 
 ## Contributing
