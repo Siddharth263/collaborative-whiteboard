@@ -7,6 +7,8 @@ import { auth } from "@clerk/nextjs/server";
 
 import { Toaster } from "@/components/ui/sonner";
 import { ModalProvider } from "@/providers/modal-provider";
+import { Suspense } from "react";
+import { Loading } from "@/components/auth/loading";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,16 +23,18 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ClerkProvider>
-      <html lang="en">
-        <body className={inter.className}>
-          <ConvexClientProvider>
-            <Toaster />
-            <ModalProvider />
-            {children}
-          </ConvexClientProvider>
-        </body>
-      </html>
-    </ClerkProvider>
+    <Suspense fallback={<Loading />}>
+      <ClerkProvider>
+        <html lang="en">
+          <body className={inter.className}>
+            <ConvexClientProvider>
+              <Toaster />
+              <ModalProvider />
+              {children}
+            </ConvexClientProvider>
+          </body>
+        </html>
+      </ClerkProvider>
+    </Suspense>
   );
 }
